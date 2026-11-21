@@ -1,0 +1,17 @@
+File: export_final_merged.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=9, face=17, face13=6, hand=37, infant_seat=10, object=10, person=25, phone=1
+  [WARN] D02.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+  [WARN] D05.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+  [WARN] D06.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [ERROR] S01_ir.png: hand: 2 tay whose=passenger cùng side=right. side là trái/phải của chính người đó (không theo phía ảnh): mỗi người chỉ có 1 tay trái, 1 tay phải
+  [ERROR] S01_rgb.png: hand: 2 tay whose=passenger cùng side=right. side là trái/phải của chính người đó (không theo phía ảnh): mỗi người chỉ có 1 tay trái, 1 tay phải
+  [ERROR] S03_ir.png: child_seat: occupied='yes' không hợp lệ (cho phép: unknown, no)
+  [ERROR] S03_rgb.png: child_seat: occupied='yes' không hợp lệ (cho phép: unknown, no)
+  [WARN] S05_ir.png: person: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [WARN] S05_rgb.png: person: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [ERROR] S06_ir.png: hand: 2 tay whose=passenger cùng side=left. side là trái/phải của chính người đó (không theo phía ảnh): mỗi người chỉ có 1 tay trái, 1 tay phải
+  [ERROR] S06_ir.png: hand: 2 tay whose=passenger cùng side=right. side là trái/phải của chính người đó (không theo phía ảnh): mỗi người chỉ có 1 tay trái, 1 tay phải
+  [WARN] S06_ir.png: child_seat: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [WARN] S08_ir.png: infant_seat: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+  [WARN] S08_rgb.png: infant_seat: seat=driver trên ảnh SVIRO (camera chỉ nhìn hàng ghế sau)
+Kết quả: 6 lỗi, 8 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.

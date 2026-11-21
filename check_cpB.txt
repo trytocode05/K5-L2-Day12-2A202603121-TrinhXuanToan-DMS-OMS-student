@@ -1,0 +1,5 @@
+GHI CHU: Ban dung lai hoi cuu tu export_final_merged.zip hien tai; khong phai log duoc luu tai thoi diem Checkpoint B.
+File: export_final_merged.zip · chỉ kiểm ảnh: D01, D02
+Ảnh: 2 · đã có frame_meta: 2 · số đối tượng: face=2, face13=2, hand=4, person=2
+  [WARN] D02.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+Kết quả: 0 lỗi, 1 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.

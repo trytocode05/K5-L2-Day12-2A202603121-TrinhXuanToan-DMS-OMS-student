@@ -1,0 +1,6 @@
+GHI CHU: Ban dung lai hoi cuu tu export_final_merged.zip hien tai; khong phai log duoc luu tai thoi diem Checkpoint A.
+File: export_final_merged.zip · chỉ kiểm ảnh: S01, S02
+Ảnh: 4 · đã có frame_meta: 4 · số đối tượng: child_seat=2, face=4, hand=6, infant_seat=4, object=2, person=4
+  [ERROR] S01_ir.png: hand: 2 tay whose=passenger cùng side=right. side là trái/phải của chính người đó (không theo phía ảnh): mỗi người chỉ có 1 tay trái, 1 tay phải
+  [ERROR] S01_rgb.png: hand: 2 tay whose=passenger cùng side=right. side là trái/phải của chính người đó (không theo phía ảnh): mỗi người chỉ có 1 tay trái, 1 tay phải
+Kết quả: 2 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
