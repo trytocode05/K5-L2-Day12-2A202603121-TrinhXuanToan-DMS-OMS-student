@@ -4,6 +4,10 @@ G[0-9][0-9]/
 *.jpg
 *.jpeg
 *.mp4
+/dms.zip
+/oms.zip
+/export_final.zip
+/QC/
 part_*.zip
 peer_*.zip
 ir_pairs/
