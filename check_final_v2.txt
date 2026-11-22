@@ -1,0 +1,7 @@
+﻿File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=9, face=17, face13=6, hand=12, infant_seat=10, object=10, person=25, phone=1
+  [WARN] D02.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+  [WARN] D06.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+Kết quả: 0 lỗi, 2 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Ghi chu D02: canh bao so sanh truc x khong phu hop voi anh Drive&Act xoay 90 do. Da kiem toa do y: left_eye_outer=695.96 > right_eye_outer=533.23, phu hop quy tac trai/phai trong GUIDE.md muc 3 va 4.6.
